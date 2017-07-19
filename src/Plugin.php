@@ -20,7 +20,7 @@ use Bragento\Magento\Composer\Installer\Project\Config;
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\IO\IOInterface;
-use Composer\Script\CommandEvent;
+use Composer\Script\Event;
 use Composer\Plugin\PluginInterface;
 use Composer\Script\ScriptEvents;
 
